@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Life Balance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The system we aim to develop is a user-friendly application designed for anyone who wants to organize their time or take control of all aspects of their life, under the concept of organization. After logging into the system, users will experience interactive features, allowing them to set specific goals and deadlines or establish habits (daily, monthly, etc.), with the system reminding users to accomplish their goals at the specified times.
 
-## Available Scripts
+The system focuses on key aspects that users want to organize throughout their lives (social, sports, educational, work, etc.). Our system motivates users through continuous interaction by informing them of the total points for each aspect individually.
 
-In the project directory, you can run:
+One of the key incentives for building the project is our approach to time organization by dividing the main important aspects of each person's life, promoting organized living in all areas. The system achieves this through advertisements and coupons provided to users to encourage their continued engagement.
 
-### `yarn start`
+**Note:** The system is within the scope of Syria and is targeted at all individuals interested in the system concept, as identified through a survey. The interested demographic is in the age range of (18 to 25) and (25 to 35).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies and Tools:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Programming Languages:** Dart, PHP, HTML, CSS
+- **Libraries:** React JavaScript, Next.js (for front-end web development)
+- **Frameworks:**
+  - Laravel: Designing the database and backend
+  - Flutter: Developing the mobile application for various operating systems (front-end mobile application)
+- **Database:** MySQL
 
-### `yarn test`
+## User-Facing System Services:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Login**
+- **Account Creation**
+- **Profile Management**
+- **Habit Management (Recurring Activities)**
+- **Goal Management**
+- **Task Management for Goals with Status**
+- **Activity Management**
+- **Mood Status Expression**
+- **Points Backpack Review**
+- **Statistics Review**
+- **Achievements Review**
+- **Notifications Management**
+- **Calendar Review**
+- **Barcode Reading**
 
-### `yarn build`
+## System Administrator Services:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Login**
+- **Account Creation**
+- **User File Management**
+- **Advertisement Management**
+- **Coupons Management**
+- **Coupons Owners Management**
+- **Points Backpack Rule Management**
+- **Report and Statistics Generation**
+- **Barcode Export**
+- **Notifications Management**
+- **User Operations Storage**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ScreenShots
+<div align="center">
+Home
+  
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div align="center">
+Dashboard
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
+</div>
