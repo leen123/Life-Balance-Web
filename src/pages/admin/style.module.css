@@ -1,0 +1,75 @@
+.crudTitle{
+    margin-bottom: 10px;
+}
+
+.container {
+    flex: 0 0 170px;
+    max-width: 170px;
+    min-width: 170px;
+    width: 170px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sectionImage {
+    background-repeat: no-repeat;
+    flex-direction: column;
+    height: 187px;
+    background-size: cover;
+    width: 286px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.sectionCard{
+    border-radius: 10px !important;
+    width: 549px;
+    height: 187px;
+}
+
+.float {
+    float: right;
+}
+
+.field {
+    margin-bottom: 18px;
+}
+
+.fullHeight{
+    height: 100%;
+}
+
+.floatRtl {
+    float: left;
+}
+
+.previousButton {
+    margin: 0 8px;
+}
+
+.cardBody {
+    width: 100%;
+    margin-top: 26px;
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.gutterBox {
+    padding: 20px;
+}
+
+
+.svgIcon {
+    margin: 0;
+    width: 1.1rem;
+}
+
+.activityImage{
+    width: 70px;
+    height: 70px;
+}
+.activityCard{
+    background-color: #141432 !important;
+}

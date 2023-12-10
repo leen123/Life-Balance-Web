@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*background-color: #1B1B3D;*/
+}
+
+.cardRow {
+    flex: 1 1 0%;
+}
+
+.titleRow {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.errorCard {
+    width: 55%;
+    padding: 0px 35px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 8px;
+}
+
+.svgPage {
+    width: 36.8rem;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .svgPage {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.text404 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: Roboto;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textError {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: Roboto;
+    font-weight: 300;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.actionButton {
+    border-radius: 25px;
+    margin-bottom: 2px;
+}

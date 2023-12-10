@@ -1,0 +1,61 @@
+{
+  "name": "circulife-admin",
+  "homepage": "http://localhost/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@types/yup": "^0.29.13",
+    "ant-design-draggable-modal": "^1.0.0",
+    "antd": "^4.24.10",
+    "axios": "^0.19.0",
+    "clsx": "^1.2.1",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-cookie": "^4.1.1",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^16.12.0",
+    "react-icons": "^4.8.0",
+    "react-intl": "^6.4.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0-next.80",
+    "react-spinners": "^0.8.3",
+    "tslint": "^6.1.3",
+    "typescript": "^3.8.3",
+    "typescript-tslint-plugin": "^1.0.1",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@loadable/component": "^5.12.0",
+    "@types/loadable__component": "^5.10.0",
+    "@types/lodash": "^4.14.149",
+    "@types/react": "^16.9.13",
+    "@types/react-document-title": "^2.0.3",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "^5.1.3",
+    "babel-plugin-import": "^1.13.3",
+    "customize-cra": "^1.0.0",
+    "less": "^2.7.3",
+    "less-loader": "^5.0.0",
+    "react-app-rewired": "^2.1.8",
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

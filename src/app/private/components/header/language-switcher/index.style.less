@@ -1,0 +1,55 @@
+@import "../../../../../styles/variable";
+
+.langBtn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+  padding: 2px 12px 18px 12px;
+  height: 100%;
+  cursor: pointer;
+  @media screen and (min-width: @screen-md) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    line-height: 1;
+  }
+}
+
+.lang-text {
+  font-size: @font-size-lg;
+  font-weight: @font-weight-regular;
+  display: inline-block;
+
+  @media screen and (min-width: @screen-md) {
+    display: none;
+  }
+}
+
+.lang-icon {
+  position: relative;
+}
+
+.langItem {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  & h4 {
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-weight: @font-weight-medium;
+    font-size: @font-size-base;
+
+    [dir="rtl"] & {
+      margin-left: 0;
+      margin-right: 16px;
+    }
+
+    @media screen and (min-width: @screen-xl) {
+      font-size: @font-size-lg;
+    }
+  }
+}

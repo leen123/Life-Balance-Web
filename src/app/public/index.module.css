@@ -1,0 +1,16 @@
+.publicContainer {
+  background-image: url('../../shared/images/background.png');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}

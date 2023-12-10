@@ -1,0 +1,532 @@
+@import "../../../../node_modules/antd/lib/style/themes/default.less";
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-header {
+  box-shadow: rgba(20, 20, 50, 0.2) 1.95px 1.95px 2.6px;
+  padding: 0 5px;
+}
+
+.ant-layout-content {
+  margin: 1rem;
+}
+
+.ant-menu.ant-menu-inline-collapsed > .ant-menu-item,
+.ant-menu.ant-menu-inline-collapsed
+  > .ant-menu-item-group
+  > .ant-menu-item-group-list
+  > .ant-menu-item,
+.ant-menu.ant-menu-inline-collapsed
+  > .ant-menu-item-group
+  > .ant-menu-item-group-list
+  > .ant-menu-submenu
+  > .ant-menu-submenu-title,
+.ant-menu.ant-menu-inline-collapsed
+  > .ant-menu-submenu
+  > .ant-menu-submenu-title {
+  padding: 0 0 0 14px;
+}
+.ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-menu-vertical.ant-menu-sub,
+.ant-menu-vertical-left.ant-menu-sub,
+.ant-menu-vertical-right.ant-menu-sub {
+  max-height: 100%;
+}
+
+.ant-layout-sider {
+  z-index: 1000;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+.ant-menu {
+  position: relative;
+  z-index: 10;
+  min-height: 100%;
+}
+
+.ant-menu-submenu-popup {
+  position: absolute;
+  z-index: 1050;
+}
+
+.ant-input-number-handler-down {
+  border-bottom-right-radius: 6px;
+}
+
+.ant-input-number-handler-up {
+  border-top-right-radius: 6px;
+}
+
+.ant-input-number-handler-wrap {
+  border-radius: 0 6px 6px 0;
+}
+
+.ant-modal-content {
+  border-radius: 15px;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns .ant-btn {
+  border-radius: 28px;
+}
+
+.ant-modal-header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.ant-select {
+  width: 100%;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 6px;
+}
+
+.ant-card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: unset;
+}
+
+.ant-menu-rtl.ant-menu-inline,
+.ant-menu-rtl.ant-menu-vertical {
+  border-left: unset;
+}
+
+.dark-mode {
+  @background-color: #141432;
+  @primary-color: #6562fc;
+  @theme-color: #1b1b3d;
+  @table-header: #141428;
+  @font-color: #fff;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: @font-color;
+  }
+
+  .profile {
+    .ant-upload.ant-upload-select-picture-card {
+      margin: 0;
+      background-color: @background-color;
+    }
+    .ant-upload {
+      color: @font-color;
+    }
+    .ant-upload-list-picture-card
+      .ant-upload-list-item-uploading.ant-upload-list-item {
+      background-color: @background-color;
+      color: @font-color;
+    }
+    .ant-upload-list-picture .ant-upload-list-item,
+    .ant-upload-list-picture-card .ant-upload-list-item {
+      padding: 0;
+    }
+  }
+
+  .ant-layout-footer {
+    color: @font-color;
+    background-color: @background-color;
+  }
+
+  .ant-dropdown-menu {
+    background: @background-color;
+  }
+
+  .ant-dropdown-menu-item,
+  .ant-dropdown-menu-submenu-title {
+    color: @font-color;
+  }
+
+  .ant-dropdown-menu-item:hover,
+  .ant-dropdown-menu-submenu-title:hover {
+    background-color: unset;
+    color: @primary-color;
+  }
+
+  .ant-notification-notice {
+    background: @background-color;
+  }
+
+  .ant-notification-notice-message {
+    color: @font-color;
+  }
+
+  .ant-notification-notice-close {
+    color: @font-color;
+  }
+
+  .ant-typography {
+    color: @font-color;
+  }
+
+  .basicInfo {
+    color: @font-color;
+    padding: 12px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    background: @theme-color;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ant-checkbox-wrapper {
+    color: @font-color;
+  }
+
+  .ant-checkbox-inner {
+    background-color: @background-color;
+    border: 1px solid @table-header;
+  }
+
+  .ant-input {
+    color: @font-color;
+    background-color: @background-color;
+    border: 1px solid @table-header;
+    border-radius: 6px;
+  }
+
+  .ant-input-number {
+    color: @font-color;
+    background-color: @background-color;
+    border: 1px solid @table-header;
+    border-radius: 6px;
+  }
+
+  .ant-input-number-handler-wrap {
+    background: @background-color;
+  }
+
+  .ant-input-number-handler:active {
+    background: @background-color;
+  }
+
+  .ant-input-number-handler-up-inner,
+  .ant-input-number-handler-down-inner {
+    color: @font-color;
+  }
+
+  .ant-modal-content {
+    background-color: @theme-color;
+    color: @font-color;
+  }
+
+  .ant-modal-footer {
+    border-top: 1px solid @background-color;
+  }
+
+  .ant-modal-confirm-body .ant-modal-confirm-title {
+    color: @font-color;
+  }
+
+  .ant-modal-confirm-body .ant-modal-confirm-content {
+    color: @font-color;
+  }
+
+  .ant-modal-header {
+    color: @font-color;
+    background: @theme-color;
+    border-bottom: 1px solid @background-color;
+  }
+
+  .ant-modal-title {
+    color: @font-color;
+  }
+
+  .ant-modal-close {
+    color: @font-color;
+  }
+
+  .ant-modal-close:focus,
+  .ant-modal-close:hover {
+    color: @primary-color;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: @primary-color;
+    color: @font-color;
+  }
+
+  .ant-layout {
+    background: @background-color;
+  }
+
+  .ant-select {
+    color: @font-color;
+  }
+
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    color: @font-color;
+    background-color: @background-color;
+    border: 1px solid @table-header;
+  }
+
+  .ant-select-dropdown {
+    color: @font-color;
+    background-color: @background-color;
+  }
+
+  .ant-select-item {
+    color: @font-color;
+  }
+
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: @font-color;
+    color: @background-color;
+  }
+
+  .ant-select-arrow {
+    color: rgb(255, 255, 255, 0.25);
+  }
+
+  .ant-select-clear {
+    color: rgb(255, 255, 255, 0.25);
+  }
+
+  .ant-select-clear:hover {
+    color: rgb(255, 255, 255, 0.5);
+  }
+
+  .ant-select-clear {
+    background: @background-color;
+  }
+
+  .systemTheme {
+    .ant-table {
+      color: @font-color;
+      background: @background-color;
+    }
+
+    .ant-table-thead > tr > th {
+      color: @font-color;
+      background: @table-header;
+      border-bottom: 1px solid @table-header;
+    }
+
+    .ant-table-tbody > tr > td {
+      border-bottom: 1px solid @table-header;
+    }
+
+    .ant-table-tbody > tr.ant-table-row:hover > td {
+      background: @table-header;
+    }
+
+    .ant-table-tbody > tr.ant-table-placeholder:hover > td {
+      background: @table-header;
+    }
+
+    .ant-empty-normal {
+      color: @font-color;
+    }
+
+    .ant-pagination-item {
+      background-color: @background-color;
+      border: 1px solid @table-header;
+    }
+
+    .ant-pagination-item a {
+      color: @font-color;
+    }
+
+    .ant-pagination-item-active a {
+      color: @primary-color;
+    }
+
+    .ant-pagination-disabled .ant-pagination-item-link,
+    .ant-pagination-disabled:hover .ant-pagination-item-link,
+    .ant-pagination-disabled:focus-visible .ant-pagination-item-link {
+      color: @font-color;
+      border-color: @background-color;
+    }
+
+    .ant-pagination-prev .ant-pagination-item-link,
+    .ant-pagination-next .ant-pagination-item-link {
+      background-color: @background-color;
+      border: 1px solid @table-header;
+    }
+
+    .ant-pagination-item-active {
+      background: @background-color;
+      border-color: @primary-color;
+    }
+
+    .ant-pagination-prev button,
+    .ant-pagination-next button {
+      color: @font-color;
+    }
+
+    .ant-card-bordered {
+      border: 1px solid @background-color;
+    }
+
+    .ant-card {
+      color: @font-color;
+      background: @theme-color;
+    }
+
+    .ant-card-head {
+      color: @font-color;
+      border-bottom: 1px solid @background-color;
+    }
+
+    .ant-layout-header {
+      background-color: @theme-color;
+      color: @font-color;
+    }
+
+    .ant-layout-sider {
+      background-color: @theme-color;
+    }
+
+    .header {
+      .ant-breadcrumb a {
+        color: @font-color;
+      }
+
+      .ant-breadcrumb-separator {
+        color: @font-color;
+      }
+
+      .ant-breadcrumb > span:last-child a {
+        color: @font-color;
+      }
+    }
+
+    .siderStyle {
+      .ant-menu {
+        position: relative;
+        z-index: 10;
+        min-height: 100%;
+        background: @theme-color;
+        color: @font-color;
+      }
+
+      .ant-menu-item > .ant-menu-title-content a {
+        color: @font-color;
+      }
+
+      .ant-menu-item > .ant-menu-title-content a:hover {
+        color: @primary-color;
+      }
+
+      .ant-menu-submenu-arrow {
+        color: @font-color;
+      }
+    }
+
+    .ant-tabs-tab:hover {
+      .themeIcon {
+        filter: invert(66%) sepia(8%) saturate(3012%) hue-rotate(124deg)
+          brightness(98%) contrast(75%);
+      }
+    }
+  }
+}
+
+.light-mode {
+  @background-color: #fff;
+  @primary-color: #6562fc;
+  @theme-color: #fff;
+  @table-header: #fff;
+  @font-color: #000;
+  .profile {
+    .ant-upload.ant-upload-select-picture-card {
+      margin: 0;
+    }
+    .ant-upload-list-picture .ant-upload-list-item,
+    .ant-upload-list-picture-card .ant-upload-list-item {
+      padding: 0;
+    }
+  }
+  .ant-layout {
+    background: #ebe4ff;
+  }
+  .ant-layout-footer {
+    color: @font-color;
+    background-color: #ebe4ff;
+  }
+  .ant-dropdown-menu-item:hover,
+  .ant-dropdown-menu-submenu-title:hover {
+    background-color: unset;
+    color: @primary-color;
+  }
+  .basicInfo {
+    color: @font-color;
+    padding: 12px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    background: @theme-color;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ant-input {
+    color: @font-color;
+    background-color: @background-color;
+    border: 1px solid @table-header;
+    border-radius: 6px;
+  }
+
+  .ant-input-number {
+    color: @font-color;
+    background-color: @background-color;
+    border: 1px solid @table-header;
+    border-radius: 6px;
+  }
+
+  .systemTheme {
+    .ant-pagination-item-active {
+      background: @background-color;
+      border-color: @primary-color;
+    }
+
+    .ant-layout-header {
+      background-color: @theme-color;
+      color: @font-color;
+    }
+
+    .ant-layout-sider {
+      background-color: @theme-color;
+    }
+
+    .siderStyle {
+      .ant-menu {
+        position: relative;
+        z-index: 10;
+        min-height: 100%;
+      }
+
+      .ant-menu-item > .ant-menu-title-content a:hover {
+        color: @primary-color;
+      }
+    }
+
+    .ant-tabs-tab:hover {
+      .themeIcon {
+        filter: invert(66%) sepia(8%) saturate(3012%) hue-rotate(124deg)
+          brightness(98%) contrast(75%);
+      }
+    }
+  }
+  //.header > .anticon > svg > g > path {
+  //  fill: #000;
+  //}
+}

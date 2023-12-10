@@ -1,0 +1,15 @@
+export default interface IUser {
+  id: number,
+  points: number,
+  roleId: number,
+  plan: number,
+  name: string,
+  expiry_date: string,
+  userName: string,
+  image: string,
+  email: string,
+  is_active: boolean,
+  roleName: string,
+  roles: [],
+  permissions: [],
+}

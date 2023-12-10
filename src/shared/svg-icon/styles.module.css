@@ -1,0 +1,14 @@
+.icon {
+  width: 0.85rem;
+  height: 0.85rem;
+  margin-right: 0.65rem;
+}
+
+.iconRtl {
+  margin-right: 0;
+  margin-left: 0.65rem;
+}
+
+.icon:hover {
+  filter: invert(48%) sepia(64%) saturate(5091%) hue-rotate(197deg) brightness(108%) contrast(100%);
+}

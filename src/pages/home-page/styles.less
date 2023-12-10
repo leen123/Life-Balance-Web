@@ -1,0 +1,59 @@
+.homePage{
+  .ant-layout {
+    min-height: 100vh;
+    background-image: url('../../shared/images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .ant-layout-footer{
+    background: unset;
+    margin: 10px 0;
+    padding: unset;
+  }
+
+  .ant-layout-content::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .ant-layout-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .ant-layout-content::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
+  .ant-layout-header {
+    background: #001529;
+    padding: 0;
+    border-radius: 0 0 30px 30px;
+    .ant-input-group-wrapper{
+      width: unset;
+    }
+    .ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+      border-radius: 10px;
+    }
+    .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+      display: none;
+    }
+    .settingIcon {
+      font-size: 20px;
+      color: #fff;
+      margin: 0 10px;
+    }
+  }
+
+  .ant-layout-footer a {
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .ant-layout-footer a:hover {
+    color: #2323;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,214 @@
+.colLogo {
+    display: flex;
+}
+
+.logo {
+    max-height: 64px;
+    min-height: 64px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.headerCol {
+    display: flex;
+    height: 100%;
+}
+
+
+.avatar {
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.marginBottom {
+    margin-bottom: 10px;
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.fullHeight {
+    height: 100% !important;
+}
+
+.logout {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pluginContainer {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-top: 65px;
+}
+
+.pluginContainerRtl {
+    width: 70%;
+    position: relative;
+    right: 15%;
+    margin-top: 65px;
+}
+
+.container {
+    flex: 0 0 170px;
+    max-width: 170px;
+    min-width: 170px;
+    width: 170px;
+    position: relative;
+    cursor: pointer;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.container:hover .option {
+    opacity: 1;
+    transition: transform 500ms;
+    transform: translateY(-8px);
+}
+
+.container:hover .pluginName {
+    opacity: 0;
+}
+
+.image {
+    opacity: 1;
+    width: 70%;
+    background-position: center;
+    background-size: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.pluginName {
+    text-align: center;
+    color: #000000;
+    opacity: 1;
+}
+
+.pluginTitle {
+    text-align: center;
+    color: #000000;
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.option {
+    position: absolute;
+    top: 3px;
+    width: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.optionItem {
+    border-right: 1px solid #ddd;
+    padding: 0 5px;
+    margin: 5px 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    z-index: 20;
+}
+
+.singleOption {
+    border-radius: 30px !important;
+
+}
+
+.firstOption {
+    border-radius: 30px 10px 10px 30px !important;
+}
+
+.lastOption {
+    border-radius: 10px 30px 30px 10px !important;
+}
+
+.optionItem:hover {
+    transition: transform 125ms;
+    transform: translateY(-2px);
+}
+
+.title {
+    font-size: 45px;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .title {
+        font-size: 37px;
+        color: #fff;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+}
+
+.flexRPTitleColor {
+    color: #001529;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.userAvatar {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin: 0 25px;
+}
+
+.shadowBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: linear-gradient(to top, rgba(250, 250, 250, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.shadowTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: linear-gradient(to bottom, rgba(250, 250, 250, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.font {
+    font-family: "Montserrat Alternates";
+}
+
+.fontRtl {
+    font-family: "belN Normal ";
+}
+
+.optionIcon {
+    margin: 0;
+    width: 1.1rem;
+}

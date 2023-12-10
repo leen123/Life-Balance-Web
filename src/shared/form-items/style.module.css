@@ -1,0 +1,34 @@
+.float {
+    float: right;
+}
+
+.floatRtl {
+    float: left;
+}
+
+.previousButton {
+    margin: 0 8px;
+}
+
+.cardBody {
+    width: 100%;
+    margin-top: 26px;
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.gutterBox {
+    padding: 20px;
+}
+
+
+.svgIcon {
+    margin: 0;
+    width: 1.1rem;
+}
+
+.redStar{
+    color: red;
+}

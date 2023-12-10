@@ -1,0 +1,56 @@
+@import "../../../node_modules/antd/lib/style/themes/default.less";
+
+.dark-mode {
+  @background-color: #141432;
+  @primary-color: #6562fc;
+  @theme-color: #1b1b3d;
+  @table-header: #141428;
+  @font-color: #fff;
+  color: @font-color;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: @font-color;
+  }
+
+  .ant-input {
+    color: @font-color;
+    background-color: @background-color;
+    border: 1px solid @table-header;
+    border-radius: 6px;
+  }
+
+  .ant-input-affix-wrapper {
+    color: @font-color;
+    background-color: @background-color;
+    border: 1px solid @table-header;
+    border-radius: 6px;
+  }
+  .ant-input-password-icon {
+    color: @font-color;
+  }
+
+  .ant-input-password-icon:hover {
+    color: @primary-color;
+  }
+
+  .ant-divider-horizontal.ant-divider-with-text::before,
+  .ant-divider-horizontal.ant-divider-with-text::after {
+    border-top-color: @font-color;
+  }
+
+  .ant-divider-horizontal.ant-divider-with-text {
+    color: @font-color;
+  }
+  .ant-card {
+    border: 1px solid @table-header !important;
+    background-color: @theme-color;
+  }
+  .ant-card-body {
+    height: 100%;
+  }
+}
